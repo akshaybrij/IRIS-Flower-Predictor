@@ -11,7 +11,7 @@ X=(df.drop(['class'],1))
 print df.head()
 Y=df['class']
 def fx():
-    warnings.warn("#####################################",DeprecationWarning)
+    warnings.warn("Deprecated",DeprecationWarning)
 with warnings.catch_warnings() :
     warnings.simplefilter("always")
     fx()
